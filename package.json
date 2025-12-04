@@ -1,0 +1,28 @@
+{
+  "name": "dpo-cli",
+  "version": "0.2.0",
+  "description": "Mini data protection CLI with OCR (PAN, Aadhaar, phone, email masking)",
+  "main": "lib/dpo_cli_helper.js",
+  "bin": {
+    "dpo-cli": "bin/dpo_cli.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node bin/dpo_cli.js"
+  },
+  "keywords": [
+    "pii",
+    "masking",
+    "dpo",
+    "cli",
+    "ocr"
+  ],
+  "author": "You <you@example.com>",
+  "license": "MIT",
+  "dependencies": {
+    "tesseract.js": "^4.0.2"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}

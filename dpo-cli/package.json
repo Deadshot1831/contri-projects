@@ -1,0 +1,34 @@
+{
+  "name": "dpo-cli",
+  "version": "0.2.0",
+  "description": "A command-line interface for optical character recognition using Tesseract.js",
+  "main": "src/index.js",
+  "bin": {
+    "dpo-cli": "bin/dpo_cli.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "tesseract.js": "^4.0.2"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "cli",
+    "ocr",
+    "tesseract",
+    "javascript"
+  ],
+  "author": "Your Name",
+  "homepage": "https://github.com/yourusername/dpo-cli#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/dpo-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/dpo-cli/issues"
+  }
+}
